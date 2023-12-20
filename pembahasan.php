@@ -6,7 +6,6 @@
 
         <!-- Page Content  -->
     <div id="content" class="p-4 p-md-5 pt-5">
-        <h2 class="mb-4">Sejarah Aritmatika Sosial</h2>
         <div alt="soal1">
             <h4>No. 1</h4>
             <p>

@@ -13,7 +13,7 @@ if (isset($_SESSION['email'])) {
 
     // Tampilkan pesan selamat datang dan tabel jika query berhasil
     if ($result->num_rows > 0) {
-        include "sidebar.php";
+        include "sidebar-non.php";
         echo '<div id="content" class="p-4 p-md-5 pt-5">';
         echo "<h2 class='mb-4'>Selamat Datang $user!</h2>";
         echo "<p>Di bawah ini adalah hasil dari Latihan Soal yang sudah kamu kerjakan.</p>";
@@ -44,7 +44,7 @@ if (isset($_SESSION['email'])) {
         echo '<script src="js/main.js"></script>';
         echo '</body></html>';
     } else {
-        include "sidebar.php";
+        include "sidebar-non.php";
         echo '<div id="content" class="p-4 p-md-5 pt-5">';
         echo "<h2 class='mb-4'>Selamat Datang $user!</h2>";
         echo "<p>Anda belum pernah mengerjakan Latihan Soal. Silahkan Kerjakan Latihan Soal!</p>";
@@ -89,7 +89,7 @@ if (isset($_SESSION['email'])) {
             <input type='password' class='form-control' id='exampleInputPassword1' placeholder='Password' name='password'>
         </div>
         <p>Belum punya akun? <a href='registrasi.php'>Daftar</a></p>
-        <button type='submit' class='btn btn-primary'>Submit</button>
+        <button type='submit' class='btn btn-outline-primary'>Submit</button>
     </form>
     </div>
     <script src='js/jquery.min.js'></script>

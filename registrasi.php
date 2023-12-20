@@ -27,7 +27,7 @@
                 <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password" name="password" required>
             </div>
             <p>Sudah punya akun? <a href="index.php">Login</a></p>
-            <button type="submit" class="btn btn-primary">Daftar</button>
+            <button type="submit" class="btn btn-outline-primary">Daftar</button>
         </form>
     </div>
 

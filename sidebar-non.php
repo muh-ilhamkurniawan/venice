@@ -1,5 +1,4 @@
 <?php
-session_start();
 // Dapatkan nama file halaman saat ini
 $current_page = basename($_SERVER['PHP_SELF']);
 
@@ -43,7 +42,7 @@ function isPageActive($pageNames)
             <li class="<?php isPageActive('index.php'); ?> font-weight-bold font-weight-bold">
             <a href="index.php">Home</a>
             </li>
-            <li class="dropdown font-weight-bold  <?php isPageActive('bab1.php,bab2.php,bab3.php,bab4.php,bab5.php,bab6.php,bab7.php,bab8.php,bab9.php'); ?>">
+            <li class="dropdown font-weight-bold <?php isPageActive('bab1.php,bab2.php,bab3.php,bab4.php,bab5.php,bab6.php,bab7.php,bab8.php,bab9.php'); ?>">
                 <a href="#" class="dropdown-toggle" data-toggle="collapse" data-target="#materiDropdown" aria-expanded="false">
                     Materi
                 </a>

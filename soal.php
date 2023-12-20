@@ -662,7 +662,7 @@ $resultMessage = isset($_GET['resultMessage']) ? $_GET['resultMessage'] : '';
 
         <!-- Tambahkan pertanyaan dan opsi jawaban untuk pertanyaan lainnya -->
 
-        <input type="submit" value="Submit" class="btn btn-primary font-weight-bold text-black">
+        <input type="submit" value="Submit" class="btn btn-outline-secondary mt-3">
     </form>
 <script>
     document.getElementById("quizForm").addEventListener("submit", function(event) {
